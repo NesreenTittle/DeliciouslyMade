@@ -14,7 +14,7 @@ $(function() {
     $(".w3-card-2:first").hide()
     $(".hslides:first").hide()
     $.ajax({
-      url: "https://alienpoodle.github.io/food-app-e5b3a-default-rtdb-export.json",
+      url: "https://nesreentittle.github.io/recipes.json",
       success: function(result) {
         $.each(result, function(index, item) {
           var cards = $(".w3-card-2:first").clone() //clone first divs
