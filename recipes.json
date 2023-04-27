@@ -1,0 +1,39 @@
+
+[
+  {
+    "name": "Pancake",
+    "prep": 20,
+    "rating": 5,
+    "cost": 25,
+    "ingredients": "1 cup all-purpose flour, 2 tablespoons sugar, 2 teaspoons baking powder, ½ teaspoon salt, 1 cup milk, 2 tablespoons unsalted butter-melted, or vegetable oil, 1 large egg, 1 tablespoon vegetable oil",
+    "instructions": "In a small bowl, whisk together flour, sugar, baking powder, and salt; set aside. In a medium bowl, whisk together milk, butter (or oil), and egg. Add dry ingredients to milk mixture; whisk until just moistened (do not overmix; a few small lumps are fine). Heat a large skillet (nonstick or cast-iron) or griddle over medium. Fold a sheet of paper towel in half, and moisten with oil; carefully rub skillet with oiled paper towel.... ",
+    "image": "https://images.unsplash.com/photo-1600326145552-327f74b9c189" 
+  },
+  {
+    "name": "Omelet",
+    "prep": 20,
+    "rating": 5,
+    "cost": 25,
+    "ingredients": "6 large eggs, 6 slices bacon, 2 tablespoons butter, 4 tablespoons chopped onion, 4 Spanish peppers, chopped, 1 large raw tomato, diced,  1 teaspoon salt, Dash of ground black pepper.",
+    "instructions": "In a small bowl, whisk together flour, sugar, baking powder, and salt; set aside. In a medium bowl, whisk together milk, butter (or oil), and egg. Add dry ingredients to milk mixture; whisk until just moistened (do not overmix; a few small lumps are fine). Heat a large skillet (nonstick or cast-iron) or griddle over medium....",
+    "image": "https://images.unsplash.com/photo-1494597706938-de2cd7341979"  
+  },
+  {
+    "name": "Egg Muffin",
+    "prep": 20,
+    "rating": 5,
+    "cost": 25,
+    "ingredients": "Half pound bulk pork sausage, 12 eggs, half cup chopped onion, half cup chopped green bell pepper, or to taste, half teaspoon salt, quarter teaspoon ground black pepper, quarter teaspoon garlic powder, half cup shredded Cheddar cheese",
+    "instructions": "Heat a large skillet over medium-high heat. Stir in sausage and cook until crumbly, evenly browned, and no longer pink, 10 to 15 minutes. Drain off grease. Beat eggs in a large bowl. Stir in onion, green pepper, salt, pepper, and garlic powder. Mix in sausage and Cheddar cheese. Spoon into the prepared muffin cups. ....",
+    "image": "https://images.unsplash.com/photo-1621156377149-90543f70df8a"  
+  },
+  {
+    "name": "Chicken Wrap",
+    "prep": 20,
+    "rating": 5,
+    "cost": 25,
+    "ingredients": "2 cups cooked grilled chicken breasts chopped, 1/4 cup  Ranch dressing, 1/2 cup mozzarella cheese, 1/4 cup cilantro minced (optional), 4 8 inch tortillas ",
+    "instructions": "Lay tortillas on a clean flat surface. Place about 1/2 cup chicken, 1 tablespoon ranch, 2 tablespoons of cheese, and 1 tablespoon of minced cilantro on each tortilla. Fold tightly to form a burrito shape. ....",
+    "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f"  
+  }
+]
