@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	<!-- <link rel="icon" href="favicon.ico" type="image/x-icon" />  
+	<link rel="apple-touch-icon" href="imgs/hello-icon-152.png">    -->
+	<meta name="theme-w3-color" content="white"/>  
+	<meta name="apple-mobile-web-app-capable" content="yes">  
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+	<meta name="apple-mobile-web-app-title" content="Name"> 
+	<!-- <meta name="msapplication-TileImage" content="imgs/hello-icon-144.png">   -->
+	<meta name="msapplication-Tilew3-color" content="#FFFFFF">
+  <title>Deliciously Made</title>
+
+  <!-- <link rel="manifest" href="/pwa.webmanifest"> -->
+  <!-- CSS  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+	<div class="w3-top">
+		<div class="w3-blue-grey w3-center">
+			<button class="w3-button w3-blue-grey w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+			<div class="w3-container">
+			<h1>Deliciously Made</h1>
+			</div>
+		</div>
+	  
+		<div class="w3-bar w3-light-grey w3-border w3-center " id="navmenu">
+			<button class="w3-bar-item w3-button w3-hide-large"
+			onclick="w3_close()">Close &times;</button>
+			<a href="#the-default-view" class="w3-bar-item w3-button w3-padding-16" style="width:20%"> Home</a>
+			<a href="#recipes" class="w3-bar-item w3-button w3-padding-16" style="width:20%"> Recipe</a>
+			<a href="#about" class="w3-bar-item w3-button w3-padding-16" style="width:20%"> About us</a>
+			<!-- <a href="#contact" class="w3-bar-item w3-button w3-padding-16"style="width:20%"> Contact</a> -->
+			<input type="text" class="w3-bar-item w3-input" placeholder="Search.."  type="search" id="searchbox" style="width:35%">
+			<div class="w3-dropdown-hover w3-button w3-padding-small w3-left">
+				<button class="w3-button"><i class="fa fa-user w3-large" aria-hidden="true"></i></button>
+				<div class="w3-dropdown-content w3-bar-block w3-card-4" style="right:0">
+				  <a href="#" class="w3-bar-item w3-button">Profile</a>
+				  <a href="#contact" class="w3-bar-item w3-button">Submissions</a>
+				  <a href="#" onclick="document.getElementById('id01').style.display='block'" class="w3-bar-item w3-button">Login</a>
+				</div>
+			  </div>
+		  </div>
+	</div>
+		
+	<form id="id01" action="#" class="w3-modal w3-pale-yellow">
+
+		<button onclick="document.getElementById('id01').style.display='none'"
+		class="w3-btn w3-right w3-large w3-hover-red w3-clear">X</button>
+		
+		<div class="w3-clear"></div>
+		
+		<div class="w3-container"> 
+		<h2>Registration</h2>
+		
+		<p><label>First Name</label>
+		<input class="w3-input" type="text" name="first" style="width:90%" required>
+		</p>
+		
+		<p><label>Last Name</label>
+		<input class="w3-input" type="text" name="last" style="width:90%" required>
+		</p>
+		
+		<p>
+		<input class="w3-radio" type="radio" name="gender" value="male" checked>
+		<label>Male</label></p>
+		
+		<p>
+		<input class="w3-radio" type="radio" name="gender" value="female">
+		<label>Female</label></p>
+		
+		
+		
+		<p>
+		<button class="w3-btn w3-ripple w3-hover-green">Register</button></p>
+		</div>
+		
+	</form>	  
+
+<div class="w3-container">
+<w3-main role="main" class="app">
+	<button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+
+  	<div id="recipes" class="w3-section">
+		<div class="w3-row center">
+		    <div class="w3-container">
+				<div class="recipe-grid">
+					<div class="w3-card-2 w3-third m-grid">
+						<div class="w3-container w3-blue">
+							<p>
+								<h3 class="card-name"></h3>
+									<i class="fa fa-clock-o" aria-hidden="true">  </i>
+									  <span class="card-prep"></span> 
+									<i class="fa fa-money" aria-hidden="true">  </i>
+									  <span class="card-cost"></span>
+									<i class="fa fa-star" aria-hidden="true">  </i>
+									  <span class="card-rating"></span>
+								</p>
+						</div>
+						
+							<div class="w3-row ">
+								
+								<img src="" class="food-image">
+								
+							</div> 
+						<span class="w3-row">
+							<div class="w3-container w3-blue">
+									<div class="w3-center">
+										<div class="w3-bar w3-padding-small">
+											<button class="w3-bar-item w3-button w3-teal">Rate <i class="fa fa-star-o" aria-hidden="true"></i>
+											</button>
+											<button class="w3-bar-item w3-button w3-teal">Print <i class="fa fa-print" aria-hidden="true"></i>
+
+											</button>
+											<button class="w3-bar-item w3-button w3-red">Share <i class="fa fa-share" aria-hidden="true"></i>
+											</button>
+										</div>
+									</div> 
+								<details>
+									<summary>Ingredients</summary>
+									<p class="card-ingredients">
+									
+									</p>
+								</details>
+								<details>
+									<summary>Instructions</summary>
+									<p class="card-instructions">
+									
+									</p>
+								</details>
+
+							</div>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> 
+   
+   <div id="contact" class="w3-section sticky-top">
+		<div class="w3-row">
+			
+			<div class="w3-card-4 ">
+				<div class="w3-container w3-cell w3-mobile">
+					<form action="#">
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+						<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+						<label for="subject">Subject</label>
+						<input type="text" id="subject" name="subject" placeholder="reason for contact">
+
+						<label for="message">message</label>
+						<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+				
+		</div>
+    </div>	
+	
+	<div id="about" class="w3-section sticky-top">
+		 <!-- About -->
+
+		<div class="w3-row">
+		
+			<div class="w3-half w3-padding-large w3-hide-small">
+			<img src="https://images.unsplash.com/photo-1506368249639-73a05d6f6488" class="w3-round w3-image w3-opacity-min" alt="Table" style="width:100%">
+			</div>
+			
+			<div class="w3-half w3-padding-large">
+				<h1 class="w3-center">About Deliciously Made</h1><br>
+				<h5 class="w3-center">Tradition since 1997</h5>
+				<p class="w3-large">
+				Deliciously Made was founded in blabla by Mrs. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p class="w3-large w3-text-grey w3-hide-medium">
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua.</p>
+				<h2 class="w3-center">Contact US</h2>
+				<p class="w3-text-blue-grey w3-large">
+					<b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+				<p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or send us a 
+					<a href="#contact" class="w3-btn w3-ripple w3-blue-grey w3-hover-green">Message.</a> </p>
+	
+			</div>
+		
+		</div>
+
+	</div>
+	
+	<div id="the-default-view" class="w3-section">
+		<div class=" slider">
+			<img class="hSlides " src="https://images.unsplash.com/photo-1600326145552-327f74b9c189">
+		  </div>
+		  
+			
+			<div class="w3-half w3-padding-large">
+				<h1 class="w3-center">About Deliciously Made</h1><br>
+				<h5 class="w3-center">Tradition since 1997</h5>
+				<p class="w3-large w3-text-grey w3-hide-medium">
+				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, 
+				sed do eiusmod temporincididunt <a href="#about">learn more.<a/></p>
+					
+				<div class="w3-container">
+					<div class="favorites-grid">
+						<div class="w3-card-6 m-grid">
+							<div class="w3-container w3-blue">
+								<p>
+									<h3 class="card-name-home">Favorites</h3>
+									</p>
+							</div>
+							
+								<div class="w3-display-container w3-row ">
+									
+									<img src="https://images.unsplash.com/photo-1600326145552-327f74b9c189" class="food-image-home">
+									<div class="w3-display-bottomright w3-container w3-blue-grey"><a href="#recipes">Pancakes</a></div>
+								</div> 
+							
+						</div>
+					</div>
+				</div>
+				
+			</div>
+
+			<div class="w3-half w3-padding-large w3-hide-small">
+				<img src="https://images.unsplash.com/photo-1506368249639-73a05d6f6488" class="w3-round w3-image w3-opacity-min" alt="Table" style="width:100%">
+			</div>
+	</div>
+	  
+</main>
+    </div>
+	
+    </br></br>
+
+  <footer>
+
+  </footer>
+
+
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+   
+  
+  
+  </body>
+</html>
